@@ -1,0 +1,19 @@
+.introduce {
+    margin-top: 112px;
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-title {
+        max-width: 535px;
+        margin-bottom: 40px;
+    }
+
+    &-slide{ 
+        display: flex;
+        gap: 0 40px;
+    }
+}

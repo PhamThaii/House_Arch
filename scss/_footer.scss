@@ -1,0 +1,9 @@
+.footer {
+    &-container {
+        height: 208px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 0.2px solid rgb(231, 231, 231);
+    }
+}

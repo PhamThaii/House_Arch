@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "SF UI Display";
+    src: url(./../fonts/sf-ui-display-cufonfonts/sf-ui-display-medium-58646be638f96.otf);
+}
+
+@font-face {
+    font-family: "SF UI Display Light";
+    src: url(./../fonts/sf-ui-display-cufonfonts/sf-ui-display-light-58646b33e0551.otf);
+}
+
+@font-face {
+    font-family: "New York Extra Large";
+    src: url(./../fonts/new-york-extra-large-cufonfonts/NewYorkExtraLargeSemibold.otf);
+}
+
+$primary_font: "SF UI Display";
+$secondary_font: "New York Extra Large";
+$light_font_sf: "SF UI Display Light";
+
+$primary_color: #fd665e;
+$black_color: #000000;
+$gray_color: #585858;
+$white_color: #ffffff;

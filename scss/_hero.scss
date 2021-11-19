@@ -1,0 +1,26 @@
+.hero {
+    margin-top: 50px;
+
+    &-title {
+        font-size: 120px;
+        font-family: $secondary_font;
+        max-width: 870px;
+    }
+
+    &-desc {
+        display: flex;
+        margin-top: 55px;
+        gap: 0 55px;
+    }
+
+    &-text {
+        max-width: 290px;
+        line-height: 25px;
+        height: 130px;
+        margin-bottom: 48px;
+    }
+
+    &-btn {
+        padding: 18px 32px;
+    }
+}

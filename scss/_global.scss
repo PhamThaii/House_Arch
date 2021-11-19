@@ -1,0 +1,76 @@
+@import "variable";
+
+body {
+    font-family: $primary_font;
+    font-size: 16px;
+    line-height: 1;
+    background-color: white;
+    color: $black_color;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.link {
+    font-size: 14px;
+    color: $gray_color;
+    padding: 4px 24px;
+    font-family: $light_font_sf;
+}
+
+.btn {
+    padding: 18px 24px;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+}
+
+.btn--primary {
+    background-color: $primary_color;
+    color: $white_color
+}
+
+.btn--secondary {
+    background-color: $white_color;
+    color: $gray_color
+}
+
+.text-primary--color{ 
+    color:  $primary_color;
+}
+
+.text-title {
+    font-size: 48px;
+    font-family: $secondary_font;
+    color: $black_color;
+    margin-bottom: 40px;
+}
+
+.text-desc { 
+    font-size: 16px;
+    color: $black_color;
+    font-family: $light_font_sf;
+}
+
+.text-desc_bold { 
+    font-size: 16px;
+    color: $black_color;
+    font-family: $primary_font;
+}
+
+.text-light {
+    font-family: $light_font_sf;
+}
+
+.text-bold {
+    font-family: $primary_font;
+}

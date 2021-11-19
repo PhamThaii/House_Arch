@@ -1,0 +1,30 @@
+.sound {
+    margin-top: 100px;
+
+    &-title { 
+        max-width: 374px;
+    }
+
+    &-main {
+       display: flex;
+    }
+
+    &-image { 
+        width: 57px;
+        height: 40px;
+        margin-left: 235px;
+        margin-right: 53px;
+    }
+
+    &-text { 
+        font-size: 32px;
+        font-family: $light_font_sf;
+        color: $black_color;
+        letter-spacing: 0.01px;
+        min-width: 765px;
+    }
+
+    &-author {
+        margin-top: 60px;
+    }
+}

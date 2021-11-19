@@ -1,0 +1,24 @@
+.header {
+    &-container {
+        height: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-main {
+        display: flex;
+        gap: 0 60px;
+    }
+
+    &-menu {
+        display: flex;
+        align-items: center;
+        gap: 0 24px;
+    }
+
+    &-action {
+        display: flex;
+        gap: 0 40px;
+    }
+}
